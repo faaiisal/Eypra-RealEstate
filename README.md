@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Epyra - Real Estate 🏡🚀
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/Faisal-Ahmed/Epyra-RealEstate-Fullstack?style=for-the-badge)
@@ -252,3 +253,8 @@ This project is licensed under the **MIT License**.
 
 
 
+=======
+# Eypra-RealEstate
+**Epyra - Real Estate** is a **Full-Stack** real estate website built with **React, Next.js, TypeScript**, and a **Node.js (Express) backend**. The platform allows users to browse, list, and manage properties seamlessly.
+>>>>>>> 83734a86ec8218d2e2326355aaae854d7e03c7c0
+ 
