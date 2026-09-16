@@ -22,7 +22,7 @@ const ProfileBody = () => {
 
       const fetchUserData = async () => {
          try {
-            const res = await fetch("http://localhost:5000/api/profile", {
+            const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/profile`, {
                headers: {
                   Authorization: `Bearer ${token}`,
                },
@@ -51,7 +51,7 @@ const ProfileBody = () => {
       const token = localStorage.getItem("token");
 
       try {
-         const res = await fetch("http://localhost:5000/api/profile", {
+         const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/profile`, {
             method: "PUT",
             headers: {
                "Content-Type": "application/json",

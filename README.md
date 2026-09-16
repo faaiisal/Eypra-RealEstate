@@ -149,7 +149,7 @@ npm install
 ### 3️⃣ Setup environment variables:
 **Frontend (`.env.local`):**
 ```
-NEXT_PUBLIC_API_URL=http://localhost:50011/api
+NEXT_PUBLIC_API_URL=http://localhost:5001/api
 ```
 
 **Backend (`.env`):**
