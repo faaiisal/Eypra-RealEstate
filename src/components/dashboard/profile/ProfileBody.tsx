@@ -16,9 +16,10 @@ const ProfileBody = () => {
    const [lastName, setLastName] = useState("");
    const [phoneNumber, setPhoneNumber] = useState("");
    const [about, setAbout] = useState("");
-   const token = localStorage.getItem("token"); 
 
    useEffect(() => {
+      const token = localStorage.getItem("token");
+
       const fetchUserData = async () => {
          try {
             const res = await fetch("http://localhost:5000/api/profile", {
@@ -47,6 +48,8 @@ const ProfileBody = () => {
    }, []);
 
    const handleSave = async () => {
+      const token = localStorage.getItem("token");
+
       try {
          const res = await fetch("http://localhost:5000/api/profile", {
             method: "PUT",
@@ -92,18 +95,31 @@ const ProfileBody = () => {
                <UserAvatarSetting
                   name={name}
                   email={email}
-                  firstName={firstName} setFirstName={setFirstName}
-                  lastName={lastName} setLastName={setLastName}
-                  phoneNumber={phoneNumber} setPhoneNumber={setPhoneNumber}
-                  about={about} setAbout={setAbout}
+                  firstName={firstName}
+                  setFirstName={setFirstName}
+                  lastName={lastName}
+                  setLastName={setLastName}
+                  phoneNumber={phoneNumber}
+                  setPhoneNumber={setPhoneNumber}
+                  about={about}
+                  setAbout={setAbout}
                />
             </div>
+
             <SocialMediaLink />
             <AddressAndLocation />
 
             <div className="button-group d-inline-flex align-items-center mt-30">
-               <button className="dash-btn-two tran3s me-3" onClick={handleSave}>Save</button>
-               <Link href="#" className="dash-cancel-btn tran3s">Cancel</Link>
+               <button
+                  className="dash-btn-two tran3s me-3"
+                  onClick={handleSave}
+               >
+                  Save
+               </button>
+
+               <Link href="#" className="dash-cancel-btn tran3s">
+                  Cancel
+               </Link>
             </div>
          </div>
       </div>
