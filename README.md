@@ -149,13 +149,13 @@ npm install
 ### 3️⃣ Setup environment variables:
 **Frontend (`.env.local`):**
 ```
-NEXT_PUBLIC_API_URL=http://localhost:5000/api
+NEXT_PUBLIC_API_URL=http://localhost:50001/api
 ```
 
 **Backend (`.env`):**
 ```
 PORT=5000
-DATABASE_URL=postgres://user:password@localhost:5432/realestate
+DATABASE_URL=postgres://epyra@localhost:5432/real_estate_backend
 JWT_SECRET=your_jwt_secret
 ```
 
