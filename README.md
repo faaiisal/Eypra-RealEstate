@@ -248,7 +248,7 @@ Feel free to fork the repository and create a pull request! 😊
 ## 📜 License
 This project is licensed under the **MIT License**.
 
-🚀 **Epyra - Real Estate** | Built with ❤️ by [Faisal Ahmed](https://github.com/faaiisal)
+🚀 **Epyra - Real Estate** | Built with ❤️ by [Will Smith](https://github.com/faaiisal)
 
 
 

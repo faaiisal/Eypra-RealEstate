@@ -18,7 +18,7 @@ const BLockFeatureFour = () => {
                         <div className="d-flex align-items-center mt-75 md-mt-50">
                            <Image src={featureImg_1} alt="" className="rounded-circle avatar" />
                            <div className="ps-4">
-                              <h6 className="fs-22 mb-5">Faisal Ahmed</h6>
+                              <h6 className="fs-22 mb-5">Will Smith</h6>
                               <span className="opacity-75">CEO & Head of Epyra Inc</span>
                            </div>
                         </div>
